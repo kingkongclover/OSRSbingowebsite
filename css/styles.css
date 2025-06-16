@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'RuneScape UF';
+    src: url('../fonts/RuneScape-UF.woff2') format('woff2'),
+        url('../fonts/RuneScape-UF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'RuneScape UF';
+    font-weight: bold;
+}
+
+body {
+  background: linear-gradient(135deg, #c28b2c, #ac250f, #432220, #373232);
+  background-size: 300% 300%;
+  animation: waveGradient 15s ease infinite;
+  margin: 0;
+  height: 100vh;
+}
+
+@keyframes waveGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  25% {
+    background-position: 50% 60%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  75% {
+    background-position: 50% 40%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.griddy {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 10px;
+    width: 900px;
+    height: 900px;
+    margin: auto;
+}
+
+
+.cell {
+    position: relative;
+    border: 3px solid yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    padding-top: 4px;
+
+    backdrop-filter: blur(6px);       /* blur effect */
+    -webkit-backdrop-filter: blur(6px);
+}
+
+.cell p {
+    font-size: 1.3em;
+    color: yellow;
+    text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+    letter-spacing: 0.05em;
+    margin: 0;
+    padding-top: 4px;
+
+}
+
+.cell img {
+    height: 90px;
+    max-width: 80%;
+    max-height: 80%;
+    pointer-events: none;
+    user-select: none;
+    margin-top: 25px;
+}
+
+.cell > *:not(img){
+    position: relative;
+    z-index: 1;
+}
+
+.teamsText {
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 25px; 
+    height: 100px;
+    color: yellow;
+    text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+    letter-spacing: 0.05em;
+}
