@@ -216,3 +216,52 @@ body {
         1px 1px 0 black;
     letter-spacing: 0.05em;
 }
+
+#top-players {
+  margin: 40px auto 20px auto;
+  max-width: 400px;
+  color: yellow;
+  font-family: Arial, sans-serif;
+  text-align: center;
+      text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+    letter-spacing: 0.05em;
+}
+
+#top-players h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: gold;
+}
+
+#players-list {
+  list-style: none;
+  padding: 0;
+}
+
+#players-list li {
+  font-size: 18px;
+  margin: 8px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.badge {
+  color: yellow;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-weight: bold;
+  min-width: 30px;
+  text-align: center;
+      text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+    letter-spacing: 0.05em;
+}

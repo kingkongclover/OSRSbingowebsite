@@ -7,12 +7,45 @@
 </head>
 <body>
     <p class="teamsText">Styx bingo website v1.0</p>
+
+    <div id="top-players">
+      <h2>Top 5 Players</h2>
+      <ul id="players-list"></ul>
+    </div>
+
     <div class="griddy">
         <a href="team1.html"><div style="background-color: blue; height: 100%"><p class="teamNames">Team 1</p></div></a>
         <a href="team2.html"><div style="background-color: green; height: 100%"><p class="teamNames">Team 2</p></div></a>
         <a href="team3.html"><div style="background-color: yellow; height: 100%"><p class="teamNames">Team 3</p></div></a>
         <a href="team4.html"><div style="background-color: red; height: 100%;"><p class="teamNames">Team 4</p></div></a>
     </div>
+
+    <script>
+    fetch('teamStatus.json')
+    .then(response => response.json())
+    .then(data => {
+        const players = data.players;
+
+        const sorted = Object.entries(players)
+        .sort(([, a], [, b]) => Number(b) - Number(a))
+        .slice(0, 5);
+
+        const list = document.getElementById('players-list');
+
+        sorted.forEach(([name, score], index) => {
+        const li = document.createElement('li');
+
+        const badge = document.createElement('span');
+        badge.classList.add('badge');
+        badge.textContent = `#${index + 1}`;
+
+        li.appendChild(badge);
+        li.appendChild(document.createTextNode(`${name}: ${score} tasks`));
+        list.appendChild(li);
+        });
+    })
+    .catch(error => console.error('Failed to load top players:', error));
+    </script>
     
 </body>
 </html>
