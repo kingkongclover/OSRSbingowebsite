@@ -1,0 +1,239 @@
+{
+  "tasks": [
+    {
+      "name": "TOB purple",
+      "description": "Get any purple from Theatre of Blood",
+      "image": "pictures/Verzik_Vitur.png"
+    },
+    {
+      "name": "Huey unique or full armor",
+      "description": "Get either tome of earth, dragon hunter wand or enough hides for full armor",
+      "image": "pictures/Hueycoatl.png"
+    },
+    {
+      "name": "Virtus or ingot",
+      "description": "Get either a Virtus piece or a chromium ingot from any DT2 boss",
+      "image": "pictures/Virtus.png"
+    },
+    {
+      "name": "GG unique (no gmaul)",
+      "description": "Get a Grotesque Guardians unique excluding dust or granite maul",
+      "image": "pictures/Dawn.png"
+    },
+    {
+      "name": "2 different rings",
+      "description": "Get two different rings from Dakannoth kings",
+      "image": "pictures/dks.png"
+    },
+    {
+      "name": "Ahrim piece",
+      "description": "Get an Ahrim piece from Barrows",
+      "image": "pictures/Ahrim_the_Blighted.png"
+    },
+    {
+      "name": "Any hilt",
+      "description": "Get any hilt from God Wars Dungeon excluding Nex",
+      "image": "pictures/hilts.png"
+    },
+    {
+      "name": "Full staff",
+      "description": "Get the full Twinflame staff",
+      "image": "pictures/Twinflame staff.png"
+    },
+    {
+      "name": "Nex unique",
+      "description": "Get a Nex unique",
+      "image": "pictures/Nex.png"
+    },
+    {
+      "name": "Zombie helmet",
+      "description": "Obtain a zombie helmet drop",
+      "image": "pictures/zhelm.png"
+    },
+    {
+      "name": "Blood shard",
+      "description": "Get a blood shard drop",
+      "image": "pictures/Blood_shard_detail.png"
+    },
+    {
+      "name": "Hally/Fang",
+      "description": "Obtain a Halberd or Fang",
+      "image": "pictures/arax.png"
+    },
+    {
+      "name": "Yama unique",
+      "description": "Get a unique from Yama",
+      "image": "pictures/Yama.png"
+    },
+    {
+      "name": "One chest or legs",
+      "description": "Obtain any chestplate or legs from GWD",
+      "image": "pictures/bandos.png"
+    },
+    {
+      "name": "Rev unique (no bracelet)",
+      "description": "Get a unique from Revenants (no bracelet)",
+      "image": "pictures/Revenant_maledictus.png"
+    },
+    {
+      "name": "Any wildy ring",
+      "description": "Obtain a ring from any Wilderness boss",
+      "image": "pictures/Cullisto.png"
+    },
+    {
+      "name": "Leather, staff or eternal",
+      "description": "Get a hydra leather, smoke battlestaff or eternal gem",
+      "image": "pictures/slayer.png"
+    },
+    {
+      "name": "Any moons weapon",
+      "description": "Obtain any weapon from Moons of Peril",
+      "image": "pictures/Moons.png"
+    },
+    {
+      "name": "Tormented demon unique",
+      "description": "Get a unique drop from Tormented Demons",
+      "image": "pictures/Tormented demon.png"
+    },
+    {
+      "name": "A voidwaker piece",
+      "description": "Obtain any Voidwaker piece",
+      "image": "pictures/voidwaker.png"
+    },
+    {
+      "name": "COX purple",
+      "description": "Get a purple from Chambers of Xeric",
+      "image": "pictures/Great_Olm.png"
+    },
+    {
+      "name": "Boss pet",
+      "description": "Receive any boss pet drop",
+      "image": "pictures/bosspet.png"
+    },
+    {
+      "name": "Dpick",
+      "description": "Obtain a dragon pickaxe",
+      "image": "pictures/dpick.png"
+    },
+    {
+      "name": "Corp sigil",
+      "description": "Get any sigil from Corporeal Beast",
+      "image": "pictures/Corporeal_Beast.png"
+    },
+    {
+      "name": "Toa purple",
+      "description": "Get a purple chest from Tombs of Amascut",
+      "image": "pictures/paskinraidi.png"
+    }
+  ],
+  "teams": {
+    "team1": {
+      "TOB purple": "1",
+      "Huey unique or full armor": "0",
+      "Virtus or ingot": "0",
+      "GG unique (no gmaul)": "0",
+      "2 different rings": "0",
+      "Ahrim piece": "0",
+      "Any hilt": "0",
+      "Full staff": "0",
+      "Nex unique": "0",
+      "Zombie helmet": "0",
+      "Blood shard": "0",
+      "Hally/Fang": "0",
+      "Yama unique": "0",
+      "One chest or legs": "0",
+      "Rev unique (no bracelet)": "0",
+      "Any wildy ring": "0",
+      "Leather, staff or eternal": "0",
+      "Any moons weapon": "0",
+      "Tormented demon unique": "0",
+      "A voidwaker piece": "0",
+      "COX purple": "0",
+      "Boss pet": "0",
+      "Dpick": "0",
+      "Corp sigil": "0",
+      "Toa purple": "0"
+    },
+    "team2": {
+      "TOB purple": "0",
+      "Huey unique or full armor": "1",
+      "Virtus or ingot": "0",
+      "GG unique (no gmaul)": "0",
+      "2 different rings": "0",
+      "Ahrim piece": "0",
+      "Any hilt": "0",
+      "Full staff": "0",
+      "Nex unique": "0",
+      "Zombie helmet": "0",
+      "Blood shard": "0",
+      "Hally/Fang": "0",
+      "Yama unique": "0",
+      "One chest or legs": "0",
+      "Rev unique (no bracelet)": "0",
+      "Any wildy ring": "0",
+      "Leather, staff or eternal": "0",
+      "Any moons weapon": "0",
+      "Tormented demon unique": "0",
+      "A voidwaker piece": "0",
+      "COX purple": "0",
+      "Boss pet": "0",
+      "Dpick": "0",
+      "Corp sigil": "0",
+      "Toa purple": "0"
+    },
+    "team3": {
+      "TOB purple": "0",
+      "Huey unique or full armor": "0",
+      "Virtus or ingot": "1",
+      "GG unique (no gmaul)": "0",
+      "2 different rings": "0",
+      "Ahrim piece": "0",
+      "Any hilt": "0",
+      "Full staff": "0",
+      "Nex unique": "0",
+      "Zombie helmet": "0",
+      "Blood shard": "0",
+      "Hally/Fang": "0",
+      "Yama unique": "0",
+      "One chest or legs": "0",
+      "Rev unique (no bracelet)": "0",
+      "Any wildy ring": "0",
+      "Leather, staff or eternal": "0",
+      "Any moons weapon": "0",
+      "Tormented demon unique": "0",
+      "A voidwaker piece": "0",
+      "COX purple": "0",
+      "Boss pet": "0",
+      "Dpick": "0",
+      "Corp sigil": "0",
+      "Toa purple": "0"
+    },
+    "team4": {
+      "TOB purple": "0",
+      "Huey unique or full armor": "0",
+      "Virtus or ingot": "0",
+      "GG unique (no gmaul)": "1",
+      "2 different rings": "0",
+      "Ahrim piece": "0",
+      "Any hilt": "0",
+      "Full staff": "0",
+      "Nex unique": "0",
+      "Zombie helmet": "0",
+      "Blood shard": "0",
+      "Hally/Fang": "0",
+      "Yama unique": "0",
+      "One chest or legs": "0",
+      "Rev unique (no bracelet)": "0",
+      "Any wildy ring": "0",
+      "Leather, staff or eternal": "0",
+      "Any moons weapon": "0",
+      "Tormented demon unique": "0",
+      "A voidwaker piece": "0",
+      "COX purple": "0",
+      "Boss pet": "0",
+      "Dpick": "0",
+      "Corp sigil": "0",
+      "Toa purple": "0"
+    }
+  }
+}

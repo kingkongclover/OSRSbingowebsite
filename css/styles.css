@@ -159,23 +159,13 @@ body {
 
 .cell .cross-icon {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  font-size: 4rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5rem; /* Adjust size as needed */
   color: red;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 999; /* higher than tooltip */
-  pointer-events: none;
-  user-select: none;
-  text-shadow: 
-    -2px -2px 0 black,
-    2px -2px 0 black,
-    -2px 2px 0 black,
-    2px 2px 0 black;
+  display: none; /* Initially hidden */
+  pointer-events: none; /* So it doesn't block interactions */
 }
 
 .cell > *:not(img){
