@@ -150,6 +150,8 @@ body {
 }
 
 .cell .tooltip {
+    width: 200px;
+    height: 200px;
     position: absolute;
     inset: 0; /* full size */
     display: flex;
@@ -165,7 +167,6 @@ body {
         1px -1px 0 black,
         -1px 1px 0 black,
         1px 1px 0 black;
-    border: 2px solid yellow;
     z-index: 2;
     opacity: 0;
     transition: opacity 0.3s ease;
