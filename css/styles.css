@@ -193,10 +193,10 @@ body {
 
 .cell .cross-icon {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 57%;
+  left: 54%;
   transform: translate(-50%, -50%);
-  font-size: 5rem; /* Adjust size as needed */
+  font-size: 15rem; /* Adjust size as needed */
   color: red;
   display: none; /* Initially hidden */
   pointer-events: none; /* So it doesn't block interactions */
