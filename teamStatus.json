@@ -106,9 +106,9 @@
       "image": "pictures/Great_Olm.png"
     },
     {
-      "name": "Boss pet",
-      "description": "Receive any boss pet drop",
-      "image": "pictures/bosspet.png"
+      "name": "Zulrah drop",
+      "description": "Receive any Zulrah unique drop",
+      "image": "pictures/zulu.png"
     },
     {
       "name": "Dpick",
@@ -149,7 +149,7 @@
       "Tormented demon unique": "0",
       "A voidwaker piece": "0",
       "COX purple": "0",
-      "Boss pet": "0",
+      "Zulrah drop": "0",
       "Dpick": "0",
       "Corp sigil": "0",
       "Toa purple": "0"
@@ -176,7 +176,7 @@
       "Tormented demon unique": "0",
       "A voidwaker piece": "0",
       "COX purple": "0",
-      "Boss pet": "0",
+      "Zulrah drop": "0",
       "Dpick": "0",
       "Corp sigil": "0",
       "Toa purple": "0"
@@ -203,7 +203,7 @@
       "Tormented demon unique": "0",
       "A voidwaker piece": "0",
       "COX purple": "0",
-      "Boss pet": "0",
+      "Zulrah drop": "0",
       "Dpick": "0",
       "Corp sigil": "0",
       "Toa purple": "0"
@@ -230,18 +230,18 @@
       "Tormented demon unique": "0",
       "A voidwaker piece": "0",
       "COX purple": "0",
-      "Boss pet": "0",
+      "Zulrah drop": "0",
       "Dpick": "0",
       "Corp sigil": "0",
       "Toa purple": "0"
     }    
   },
   "players": {
-    "player1": "1",
-    "player2": "2",
+    "player1": "3",
+    "player2": "10",
     "player3": "5",
-    "player4": "0",
+    "player4": "7",
     "player5": "3",
-    "player6": "8"
+    "player6": "1"
   }
 }
