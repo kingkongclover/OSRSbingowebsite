@@ -57,6 +57,14 @@ body {
   height: 100vh;
 }
 
+#indexBgBoxes5 {
+  background: linear-gradient(212deg, #ff00d4, #b40096, #96007d, #46003a);
+  background-size: 300% 300%;
+  animation: waveGradient 15s ease infinite;
+  margin: 0;
+  height: 100vh;
+}
+
 .copyright {
   position: fixed;
   bottom: 10px;
@@ -87,16 +95,17 @@ body {
 .griddy {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     gap: 10px;
     width: 500px;
-    height: 500px;
+    height: 700px;
     margin: auto;
 }
 
 .griddy a div {
     transition: 0.2s ease;
     width: 250px;
+    height: 250px;
 }
 
 .griddy a:hover div {
