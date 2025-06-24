@@ -11,10 +11,19 @@
     box-sizing: border-box;
     font-family: 'RuneScape UF';
     font-weight: bold;
+    cursor: url(../pictures/dscursor.cur), auto;
 }
 
 a {
     text-decoration: none;
+}
+
+html, body {
+    cursor: url(../pictures/dscursor.cur), auto;
+}
+
+a, button, input, select, textarea {
+    cursor: url(../pictures/dscursor.cur), auto;
 }
 
 body {
@@ -63,6 +72,7 @@ body {
   animation: waveGradient 15s ease infinite;
   margin: 0;
   height: 100vh;
+  margin-left: 50%;
 }
 
 .copyright {
