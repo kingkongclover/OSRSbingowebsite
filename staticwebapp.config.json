@@ -23,6 +23,31 @@
         {
             "route": "/team5",
             "rewrite": "/team5.html"
+        },
+        {
+            "route": "/team1.html",
+            "redirect": "/team1",
+            "statusCode": 301
+        },
+        {
+            "route": "/team2.html",
+            "redirect": "/team2",
+            "statusCode": 301
+        },
+        {
+            "route": "/team3.html",
+            "redirect": "/team3",
+            "statusCode": 301
+        },
+        {
+            "route": "/team4.html",
+            "redirect": "/team4",
+            "statusCode": 301
+        },
+        {
+            "route": "/team5.html",
+            "redirect": "/team5",
+            "statusCode": 301
         }
     ],
     "navigationFallback": {
