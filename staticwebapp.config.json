@@ -25,6 +25,16 @@
             "rewrite": "/team5.html"
         },
         {
+            "route": "/index",
+            "redirect": "/",
+            "statusCode": 301
+        },
+        {
+            "route": "/index.html",
+            "redirect": "/",
+            "statusCode": 301
+        },
+        {
             "route": "/team1.html",
             "redirect": "/team1",
             "statusCode": 301
