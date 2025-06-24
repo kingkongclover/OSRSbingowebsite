@@ -54,5 +54,5 @@
         "rewrite": "/index.html",
         "exclude": ["/*.css", "/*.js", "/*.png", "/*.jpg"]
     },
-    "trailingSlash": "neveer"
+    "trailingSlash": "never"
 }
