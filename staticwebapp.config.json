@@ -1,0 +1,33 @@
+{
+    "routes": [
+        {
+            "route": "/",
+            "rewrite": "/index.html"
+        },
+        {
+            "route": "/team1",
+            "rewrite": "/team1.html"
+        },
+        {
+            "route": "/team2",
+            "rewrite": "/team2.html"
+        },
+        {
+            "route": "/team3",
+            "rewrite": "/team3.html"
+        },
+        {
+            "route": "/team4",
+            "rewrite": "/team4.html"
+        },
+        {
+            "route": "/team5",
+            "rewrite": "/team5.html"
+        }
+    ],
+    "navigationFallback": {
+        "rewrite": "/index.html",
+        "exclude": ["/*.css", "/*.js", "/*.png", "/*.jpg"]
+    },
+    "trailingSlash": "neveer"
+}
