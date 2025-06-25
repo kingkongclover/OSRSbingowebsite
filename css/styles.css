@@ -257,11 +257,16 @@ body {
 
 .teamNames {
     text-align: center;
-    font-size: 2rem;
+    font-size: 35px;
     padding: 0;
     margin: auto;
     padding-top: 25px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 251, 0);
+    text-shadow:
+        -1px -1px 0 rgb(0, 0, 0),
+        1px -1px 0 rgb(0, 0, 0),
+        -1px 1px 0 black,
+        1px 1px 0 black;
     text-decoration: none;
 }
 
