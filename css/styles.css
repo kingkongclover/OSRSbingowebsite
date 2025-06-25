@@ -14,6 +14,34 @@
     cursor: url(../pictures/dscursor.cur), auto;
 }
 
+.video-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -2;
+}
+
+#bg-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(3px); /* Apply blur */
+  transform: scale(1.05); /* Prevent edges from showing due to blur */
+}
+
+.video-blur-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(0px); /* Optional: Extra blur on overlay */
+  z-index: 1;
+}
+
 a {
     text-decoration: none;
 }
