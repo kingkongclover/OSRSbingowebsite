@@ -3,5 +3,6 @@ User-agent: *
 # Block access to potentially irrelevant folders (if they exist)
 Disallow: /pictures/
 Disallow: /fonts/
+Disallow: /teamStatus.json/
 
 Sitemap: https://www.ciover.fi/sitemap.xml
