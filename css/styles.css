@@ -130,6 +130,23 @@ body {
   }
 }
 
+@keyframes fall-down {
+  from {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.fall-in {
+  animation: fall-down 0.8s ease-out forwards;
+  opacity: 1 !important;
+}
+
+
 .griddy {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -144,6 +161,11 @@ body {
     transition: 0.2s ease;
     width: 250px;
     height: 250px;
+}
+
+.griddy > a > div {
+  opacity: 0;
+  animation: fadeIn 1s ease-out forwards;
 }
 
 .griddy a:hover div {

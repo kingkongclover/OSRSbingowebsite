@@ -265,7 +265,7 @@ fetch('teamStatus.json')
   .then(response => response.json())
   .then(data => {
     const tasks = data.tasks;
-    const teamStatus = data.teams.team1; // Change to team2, team3, etc. as needed
+    const teamStatus = data.teams.team1; // or whichever team you're displaying
     const cells = document.querySelectorAll('.cell');
 
     cells.forEach((cell, index) => {

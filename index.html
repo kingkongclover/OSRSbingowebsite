@@ -35,7 +35,7 @@
         <div class="video-blur-overlay"></div>
     </div>
 
-    <h1 class="teamsText">Styx Bingo website v1.0</p>
+    <h1 class="teamsText">Styx Bingo website v1.0</h1>
 
     <div id="top-players">
       <h2>Top 5 Players</h2>
@@ -78,6 +78,16 @@
     })
     .catch(error => console.error('Failed to load top players:', error));
     </script>
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            const boxes = document.querySelectorAll('.griddy > a > div');
+            boxes.forEach((box, index) => {
+                setTimeout(() => {
+                    box.classList.add('fall-in');
+                }, index * 150); // stagger each box for nicer effect
+            });
+        });
+</script>
     
 </body>
 </html>
