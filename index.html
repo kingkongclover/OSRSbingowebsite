@@ -48,7 +48,7 @@
         <a href="team1.html"><div id="indexBgBoxes1" class="pixel-corners--wrapper" style="height: 100%"><p class="teamNames">Jim'll fix it<img style="width: 120px; margin-top: 10px;" src="/pictures/jimTeamLogo.png" alt="jims logo"></p></div></a>
         <a href="team2.html"><div id="indexBgBoxes2" class="pixel-corners--wrapper" style="height: 100%"><p class="teamNames">Just chill guys<img style="width: 120px; margin-top: 10px;" src="/pictures/chillGuysLogo.webp" alt="Chill guys logo"></p></div></a>
         <a href="team3.html"><div id="indexBgBoxes3" class="pixel-corners--wrapper" style="height: 100%"><p class="teamNames">358 Niggers<img style="width: 120px; margin-top: 30px;" src="/pictures/358TeamLogo.png" alt="Well well well"></p></div></a>
-        <a href="team4.html"><div id="indexBgBoxes4" class="pixel-corners--wrapper" style="height: 100%"><p class="teamNames">The Dutchies + Cam<br><img style="width: 50px; margin-top: 10px;" src="/pictures/dutchTeamLogo.webp" alt="Chill guys logo"></p></div></a>
+        <a href="team4.html"><div id="indexBgBoxes4" class="pixel-corners--wrapper" style="height: 100%"><p class="teamNames">The Dutchies<br> + Cam<br><img style="width: 50px; margin-top: 10px;" src="/pictures/dutchTeamLogo.webp" alt="Chill guys logo"></p></div></a>
         <a href="team5.html"><div id="indexBgBoxes5" class="pixel-corners--wrapper" style="height: 100%"><p class="teamNames">Racists (Car)<img style="width: 160px;" src="/pictures/racerTeamLogo.png" alt="Racers logo"></p></div></a>
     </div>
 
@@ -90,27 +90,28 @@
             });
         });
 
-  function updateCountdown() {
-    const targetDate = new Date("2025-06-27T19:00:00+01:00"); // UK summer time
-    const now = new Date();
-    const diff = targetDate - now;
+function updateCountdown() {
+  const targetDate = new Date("2025-07-06T20:00:00+01:00"); // UK summer time
+  const now = new Date();
+  const diff = targetDate - now;
 
-    if (diff <= 0) {
-      document.getElementById("countdown").textContent = "Event has started!";
-      clearInterval(timer);
-      return;
-    }
-
-    const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
-    const minutes = Math.floor((diff / (1000 * 60)) % 60);
-    const seconds = Math.floor((diff / 1000) % 60);
-
-    document.getElementById("countdown").textContent =
-      `${hours}h ${minutes}m ${seconds}s`;
+  if (diff <= 0) {
+    document.getElementById("countdown").textContent = "Event has ended!";
+    clearInterval(timer);
+    return;
   }
 
-  updateCountdown();
-  const timer = setInterval(updateCountdown, 1000);
+  const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+  const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+  const minutes = Math.floor((diff / (1000 * 60)) % 60);
+  const seconds = Math.floor((diff / 1000) % 60);
+
+  document.getElementById("countdown").textContent =
+    `${days}d ${hours}h ${minutes}m ${seconds}s`;
+}
+
+updateCountdown();
+const timer = setInterval(updateCountdown, 1000);
 </script>
     
 </body>
