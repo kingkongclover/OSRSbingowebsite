@@ -177,7 +177,7 @@
       "A voidwaker piece": "0",
       "COX purple": "0",
       "Zulrah drop": "0",
-      "Dpick": "0",
+      "Dpick": "1",
       "Corp sigil": "0",
       "Toa purple": "0"
     },
@@ -231,7 +231,7 @@
       "A voidwaker piece": "0",
       "COX purple": "0",
       "Zulrah drop": "0",
-      "Dpick": "1",
+      "Dpick": "0",
       "Corp sigil": "0",
       "Toa purple": "0"
     },
@@ -264,25 +264,29 @@
     }
   },
   "players": {
-    "cIover": "0",
-    "Aw tysm x": "0",
-    "Re s": "0",
-    "Big Lenda": "0",
     "EarthwormJim": "0",
     "im tree": "0",
     "Jbux": "0",
     "Hah a": "0",
+
+    "n0_N4m3_1319": "1",
+    "Scumbag-Jack": "0",
+    "uSam": "1",
+    "400mg test": "0",
+
     "Sosig": "1",
     "Tortur e": "0",
     "Skrelo": "0",
     "Mxq3": "0",
+
     "sirbeanyman": "1",
     "De us": "0",
     "SodaGrab": "0",
     "Its Tinus": "1",
-    "n0_N4m3_1319": "1",
-    "Scumbag-Jack": "0",
-    "uSam": "1",
-    "400mg test": "0"
+
+    "cIover": "0",
+    "Aw tysm x": "0",
+    "Re s": "0",
+    "Big Lenda": "0"
   }
 }
