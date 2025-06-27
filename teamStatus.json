@@ -132,7 +132,7 @@
       "Huey unique or full armor": "0",
       "Virtus or ingot": "0",
       "GG unique (no gmaul)": "0",
-      "2 different rings": "0",
+      "2 different rings": "1",
       "Ahrim piece": "0",
       "Any hilt": "0",
       "Full staff": "0",
@@ -196,7 +196,7 @@
       "Hally/Fang": "1",
       "Yama unique": "0",
       "One chest or legs": "0",
-      "Rev unique (no bracelet)": "0",
+      "Rev unique (no bracelet)": "1",
       "Any wildy ring": "0",
       "Leather, staff or eternal": "0",
       "Any moons weapon": "0",
@@ -266,7 +266,7 @@
   "players": {
     "EarthwormJim": "0",
     "im tree": "0",
-    "Jbux": "0",
+    "Jbux": "1",
     "Hah a": "0",
 
     "n0_N4m3_1319": "1",
@@ -277,7 +277,7 @@
     "Sosig": "1",
     "Tortur e": "0",
     "Skrelo": "0",
-    "Mxq3": "1",
+    "Mxq3": "2",
 
     "sirbeanyman": "1",
     "De us": "0",
