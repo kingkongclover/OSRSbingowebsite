@@ -37,6 +37,8 @@
 
     <h1 class="teamsText">Styx Bingo website v1.0</h1>
 
+    <div id="countdown" style="font-size: 2rem; font-weight: normal;"></div>
+
     <div id="top-players">
       <h2>Top 5 Players</h2>
       <ul id="players-list"></ul>
@@ -87,6 +89,28 @@
                 }, index * 150); // stagger each box for nicer effect
             });
         });
+
+  function updateCountdown() {
+    const targetDate = new Date("2025-06-27T19:00:00+01:00"); // UK summer time
+    const now = new Date();
+    const diff = targetDate - now;
+
+    if (diff <= 0) {
+      document.getElementById("countdown").textContent = "Event has started!";
+      clearInterval(timer);
+      return;
+    }
+
+    const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+    const minutes = Math.floor((diff / (1000 * 60)) % 60);
+    const seconds = Math.floor((diff / 1000) % 60);
+
+    document.getElementById("countdown").textContent =
+      `${hours}h ${minutes}m ${seconds}s`;
+  }
+
+  updateCountdown();
+  const timer = setInterval(updateCountdown, 1000);
 </script>
     
 </body>
