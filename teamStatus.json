@@ -133,7 +133,7 @@
       "Virtus or ingot": "0",
       "GG unique (no gmaul)": "0",
       "2 different rings": "1",
-      "Ahrim piece": "0",
+      "Ahrim piece": "1",
       "Any hilt": "0",
       "Full staff": "0",
       "Nex unique": "0",
@@ -264,7 +264,7 @@
     }
   },
   "players": {
-    "EarthwormJim": "1",
+    "EarthwormJim": "2",
     "im tree": "0",
     "Jbux": "1",
     "Hah a": "0",
