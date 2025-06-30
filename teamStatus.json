@@ -138,7 +138,7 @@
       "Full staff": "0",
       "Nex unique": "0",
       "Zombie helmet": "1",
-      "Blood shard": "0",
+      "Blood shard": "1",
       "Hally/Fang": "1",
       "Yama unique": "0",
       "One chest or legs": "0",
@@ -264,7 +264,7 @@
     }
   },
   "players": {
-    "EarthwormJim": "4",
+    "EarthwormJim": "5",
     "im tree": "2",
     "Jbux": "3",
     "Hah a": "0",
