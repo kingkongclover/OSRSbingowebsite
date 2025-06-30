@@ -144,7 +144,7 @@
       "One chest or legs": "0",
       "Rev unique (no bracelet)": "1",
       "Any wildy ring": "0",
-      "Leather, staff or eternal": "0",
+      "Leather, staff or eternal": "1",
       "Any moons weapon": "1",
       "Tormented demon unique": "0",
       "A voidwaker piece": "0",
@@ -266,7 +266,7 @@
   "players": {
     "EarthwormJim": "4",
     "im tree": "2",
-    "Jbux": "2",
+    "Jbux": "3",
     "Hah a": "0",
 
     "n0_N4m3_1319": "2",
