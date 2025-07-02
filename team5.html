@@ -35,6 +35,7 @@
 
     <a href="index.html" class="back-button"><-</a>
     <p class="teamsText">Styx Summer Bingo<br>Racists (Car)</p>
+    <div id="sumDiv"></div><br>
 
 <div id="grid" class="grid">
   <!-- 25 cells -->
@@ -265,19 +266,38 @@ fetch('teamStatus.json')
   .then(response => response.json())
   .then(data => {
     const tasks = data.tasks;
-    const teamStatus = data.teams.team5; // Change to team2, team3, etc. as needed
+    const teamStatus = data.teams.team1;
     const cells = document.querySelectorAll('.cell');
+    const sumDiv = document.getElementById('sumDiv');
 
+    // mark cells with X if completed
     cells.forEach((cell, index) => {
       const taskName = tasks[index]?.name;
       const cross = cell.querySelector('.cross-icon');
-
       if (teamStatus && teamStatus[taskName] === "1") {
         cross.style.display = "flex";
       } else {
         cross.style.display = "none";
       }
     });
+
+    // sum first 4 players and display individual
+    const playerEntries = Object.entries(data.players);
+    let total = 0;
+    let details = "";
+
+    for (let i = 16; i < 20 && i < playerEntries.length; i++) {
+      const [name, score] = playerEntries[i];
+      total += parseInt(score);
+      details += `<li>${name}: ${score}</li>`;
+    }
+
+    sumDiv.innerHTML = `
+      <strong>Total of team Racists (Car):</strong> ${total}
+      <ul>
+        ${details}
+      </ul>
+    `;
   })
   .catch(error => {
     console.error('Error loading teamStatus.json:', error);

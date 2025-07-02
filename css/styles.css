@@ -24,6 +24,21 @@
   z-index: -2;
 }
 
+#sumDiv {
+  color: yellow;
+  text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+  font-size: 1.4rem;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  position: relative;
+  max-width: fit-content;
+}
+
 #countdown {
   max-width: fit-content;
   margin-left: auto;
