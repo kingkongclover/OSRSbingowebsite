@@ -267,7 +267,7 @@ fetch('teamStatus.json')
   .then(response => response.json())
   .then(data => {
     const tasks = data.tasks;
-    const teamStatus = data.teams.team1;
+    const teamStatus = data.teams.team2;
     const cells = document.querySelectorAll('.cell');
     const sumDiv = document.getElementById('sumDiv');
 
