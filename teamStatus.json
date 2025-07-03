@@ -146,7 +146,7 @@
       "Any wildy ring": "0",
       "Leather, staff or eternal": "1",
       "Any moons weapon": "1",
-      "Tormented demon unique": "0",
+      "Tormented demon unique": "1",
       "A voidwaker piece": "0",
       "COX purple": "1",
       "Zulrah drop": "1",
@@ -264,7 +264,7 @@
     }
   },
   "players": {
-    "EarthwormJim": "5",
+    "EarthwormJim": "6",
     "im tree": "2",
     "Jbux": "3",
     "Hah a": "3",
