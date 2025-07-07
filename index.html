@@ -37,82 +37,9 @@
 
     <h1 class="teamsText">Styx Bingo website v1.0</h1>
 
-    <div id="countdown"></div>
-
-    <div id="top-players">
-      <h2>Top 5 Players</h2>
-      <ul id="players-list"></ul>
-    </div>
-
-    <div class="griddy">
-        <a href="team1.html"><div id="indexBgBoxes1" class="pixel-corners--wrapper" style="height: 100%"><p class="teamNames">Jim'll fix it<img style="width: 120px; margin-top: 10px;" src="/pictures/jimTeamLogo.png" alt="jims logo"></p></div></a>
-        <a href="team2.html"><div id="indexBgBoxes2" class="pixel-corners--wrapper" style="height: 100%"><p class="teamNames">Just chill guys<img style="width: 120px; margin-top: 10px;" src="/pictures/chillGuysLogo.webp" alt="Chill guys logo"></p></div></a>
-        <a href="team3.html"><div id="indexBgBoxes3" class="pixel-corners--wrapper" style="height: 100%"><p class="teamNames">358 Niggers<img style="width: 120px; margin-top: 30px;" src="/pictures/358TeamLogo.png" alt="Well well well"></p></div></a>
-        <a href="team4.html"><div id="indexBgBoxes4" class="pixel-corners--wrapper" style="height: 100%"><p class="teamNames">The Dutchies<br> + Cam<br><img style="width: 50px; margin-top: 10px;" src="/pictures/dutchTeamLogo.webp" alt="Chill guys logo"></p></div></a>
-        <a href="team5.html"><div id="indexBgBoxes5" class="pixel-corners--wrapper" style="height: 100%"><p class="teamNames">Racists (Car)<img style="width: 160px;" src="/pictures/racerTeamLogo.png" alt="Racers logo"></p></div></a>
-    </div>
+    <div id="countdown">Thank you for participating in the bingo</div>
 
     <div class="copyright">(c) cIover</div>
-
-    <script>
-    fetch('teamStatus.json')
-    .then(response => response.json())
-    .then(data => {
-        const players = data.players;
-
-        const sorted = Object.entries(players)
-        .sort(([, a], [, b]) => Number(b) - Number(a))
-        .slice(0, 5);
-
-        const list = document.getElementById('players-list');
-
-        sorted.forEach(([name, score], index) => {
-        const li = document.createElement('li');
-
-        const badge = document.createElement('span');
-        badge.classList.add('badge');
-        badge.textContent = `#${index + 1}`;
-
-        li.appendChild(badge);
-        li.appendChild(document.createTextNode(`${name}: ${score} tasks`));
-        list.appendChild(li);
-        });
-    })
-    .catch(error => console.error('Failed to load top players:', error));
-    </script>
-    <script>
-        window.addEventListener('DOMContentLoaded', () => {
-            const boxes = document.querySelectorAll('.griddy > a > div');
-            boxes.forEach((box, index) => {
-                setTimeout(() => {
-                    box.classList.add('fall-in');
-                }, index * 150); // stagger each box for nicer effect
-            });
-        });
-
-function updateCountdown() {
-  const targetDate = new Date("2025-07-06T20:00:00+01:00"); // UK summer time
-  const now = new Date();
-  const diff = targetDate - now;
-
-  if (diff <= 0) {
-    document.getElementById("countdown").textContent = "the Dutchies + Cam has won Styx Summer Bingo 2025";
-    clearInterval(timer);
-    return;
-  }
-
-  const days = Math.floor(diff / (1000 * 60 * 60 * 24));
-  const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
-  const minutes = Math.floor((diff / (1000 * 60)) % 60);
-  const seconds = Math.floor((diff / 1000) % 60);
-
-  document.getElementById("countdown").textContent =
-    `${days}d ${hours}h ${minutes}m ${seconds}s`;
-}
-
-updateCountdown();
-const timer = setInterval(updateCountdown, 1000);
-</script>
     
 </body>
 </html>
